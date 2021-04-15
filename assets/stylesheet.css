@@ -22,3 +22,18 @@ p {
 .presentation {
   margin-bottom: 16px;
 }
+
+.app-content {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .app-content {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+}
