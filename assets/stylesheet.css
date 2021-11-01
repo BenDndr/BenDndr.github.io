@@ -2,38 +2,34 @@
 @import url("components/btn.css");
 @import url("components/card-project.css");
 @import url("components/footer.css");
+@import url("components/Constant.css");
 
-h1 {
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, p {
   color: white;
 }
 
-h2 {
-  color: white;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-p {
-  color: #353238;
+.icons-link {
+  background-color: red;
+  margin-top: 3rem;
 }
 
-.text-white {
-  color: white;
+.icon {
+  color: var(--main-color2);
+  transition: .3s ease-out;
 }
 
-.presentation {
-  margin-bottom: 16px;
-}
-
-.app-content {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-
-@media only screen and (max-width: 1000px) {
-  .app-content {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-
+.icon:hover {
+  color: var(--main-color4);
 }

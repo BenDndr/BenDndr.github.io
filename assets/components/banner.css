@@ -1,6 +1,8 @@
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
-  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
